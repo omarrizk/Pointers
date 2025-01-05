@@ -10,7 +10,11 @@ class Test {
 			std::cout << ptr << std::endl;
 			std::cout << "derefencing pointer" << "\n";
 			std::cout << *ptr << std::endl;
+			*ptr = "pizza"; // changed value of pointer
+			std::cout << *ptr << std::endl; 
+			std::cout << ptr << std::endl; // address
 		}
+
 };
 
 int main() {
